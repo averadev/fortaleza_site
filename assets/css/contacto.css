@@ -1,0 +1,120 @@
+.map{
+    padding-bottom: 350px;
+    min-height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.contacto{
+    color: #707070;
+    font-size: 12px;
+    background-color: white;
+    height: 339px;
+    width:100%;
+    background-color: #281e19;
+}
+
+.contactoL{
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+}
+
+.contactoR{
+    top: -50px;
+    float: right;
+    position: relative;
+    width: 362px;
+    height: 339px;
+    background-color: #fff;
+    background: url("../img/web/contactForm.jpg") no-repeat;
+}
+
+.contactoR input,
+.contactoR textarea{
+    top:37px;
+    position: relative;
+    margin-left: 32px;
+    width: 300px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding-left: 60px;
+    font-size: 16px;
+}
+#txtNombre{
+    background: #ededed url("../img/web/contactIcon-01.png") no-repeat 22px 6px;
+}
+#txtTelefono{
+    background: #ededed url("../img/web/contactIcon-02.png") no-repeat 22px 6px;
+}
+#txtEmail{
+    background: #ededed url("../img/web/contactIcon-03.png") no-repeat 22px 6px;
+}
+#txtMsg{
+    background: #ededed url("../img/web/contactIcon-04.png") no-repeat 22px 6px;
+    height: 105px;
+}
+
+
+.contactoR a{
+    top:30px;
+    left:97px;
+    background-color: #795e4a;
+    border-color: #2c221b;
+    position: relative;
+}
+.contactoR a:hover{
+    background-color: #5c442a;
+    border-color: #2c221b;
+}
+
+p{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+.title{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.foot {
+    margin-top: 15px;
+}
+
+.footer {
+    top: -379px;
+    bottom: 0;
+    color: #707070;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: white;
+    height: 379px;
+    left: 0;
+    position: relative; //changed to relative from fixed also works if position is not there
+    font-size: small;
+    width:100%;
+}
+
+.redLine{
+    border: 1px solid #CA8A8A !important;
+}
+
+#social a{
+    margin: 0 5px;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+#social a:hover{
+    opacity: 0.7;
+}
+
+

@@ -1,0 +1,48 @@
+//Nombre del div que queremos poner en una ventana
+var containerName = '#appConteiner';
+
+// Ubicación del ReserveController
+var preLocation = 'reservas/index.php/';
+
+$(document).ready(
+	function(){
+		var link = $("<link>");
+		link.attr({
+			type: 'text/css',
+			rel: 'stylesheet',
+			href: window.location.pathname + 'reservas/css/sales/reserve.css'
+		});
+		$("head").append(link); 
+	}
+);
+
+function showAppConteiner(){
+	$('body').append('<div id=modal></div>');	
+    // Ubicación del ReserveController
+	$.blockUI({ 
+		message: '<h1>Cargando...</h1>', 
+		overlayCSS: {
+			backgroundColor: 'black', 
+	        opacity: 1.0
+	    } 
+	});
+	$('#modal').load(
+		preLocation + 'ReserveController',
+		function(){
+			$.unblockUI();
+            $.colorbox({
+	        	href: containerName,
+	            inline:true,
+	        	open:true,
+	        	innerWidth:'965px',
+	        	innerHeight:'865px'
+            });
+         }
+	);
+}
+
+$(document).bind('cbox_cleanup', function(){
+	$('.tipsy').remove();
+	$(containerName).remove();
+	$('#modal').remove();
+});

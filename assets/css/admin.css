@@ -1,0 +1,173 @@
+/* -----------------  Estilos generales  ----------------- */
+body {
+  padding-top: 30px;
+}
+
+.btnSearch{
+    cursor: pointer;
+}
+
+.btnSearch:hover,
+.btnSearch:focus{
+	background-color: #d6d6d6;	
+}
+
+#btnGuardar{
+	margin-left: 10px;
+}
+
+.redPoint{
+	color: #480000;
+}
+
+.bg-danger, .bg-danger2 {
+	display: none;
+	padding: 10px 15px;
+	color: #414141;
+	background-color: #f2dede;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.bg-info {
+	display: none;
+	padding: 10px 15px;
+	color: #414141;
+	background-color: #d9edf7;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.fade.in {
+	opacity: .9;
+}
+
+.btnPagina{
+	cursor: pointer;
+}
+
+.editRow{
+	cursor: pointer;
+	font-weight: bold;;
+}
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-controls{
+	display: none !important;
+}
+
+
+
+.droparea {
+	padding: 15px 70px;
+	display: block;
+	border: 2px dashed #ddd;
+	opacity: .8;
+	width: 300px;
+	height: 200px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.typeP{
+	padding: 0;
+	width: 200px !important;
+	height: 100px !important;
+}
+
+#imageInput{
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#txtComercio.twitter-typeahead{
+	width:436px !important;
+	padding-right: 30px;
+}
+
+.typeahead-check{
+	background: url('../img/app/check.png')  no-repeat right center;
+}
+
+.logoLogin{
+	width: 150px;
+	height: 125px;
+	background: url('../img/app/logo-min.png')  no-repeat right center;
+}
+
+.navbar-brand{
+	padding-left: 70px;
+}
+
+
+.newPrice {
+    width: 100px;
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+
+.xFiltro{
+    float: left;
+    margin-right: 30px;
+}
+
+.custom-select select {
+    display: inline-block;
+    border: 2px solid #bbb;
+    padding: 4px 3px 3px 5px;
+    margin: 0;
+    font: inherit;
+    outline:none; /* remove focus ring from Webkit */
+    line-height: 1.2;
+    background: #f8f8f8;
+
+    -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
+
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+/* for Webkit's CSS-only solution */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .custom-select select {
+        padding-right:30px;    
+    }
+}
+
+/* Since we removed the default focus styles, we have to add our own */
+.custom-select select:focus {
+    -webkit-box-shadow: 0 0 3px 1px #c00;
+    -moz-box-shadow: 0 0 3px 1px #c00;
+    box-shadow: 0 0 3px 1px #c00;
+}
+
+/* Select arrow styling */
+.custom-select:after {
+    content: "▼";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 60%;
+    line-height: 30px;
+    padding: 0 7px;
+    background: #fff;
+    color: white;
+
+    pointer-events:none;
+
+    -webkit-border-radius: 0 6px 6px 0;
+    -moz-border-radius: 0 6px 6px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.no-pointer-events .custom-select:after {
+    content: none;
+}
+

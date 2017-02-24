@@ -1,0 +1,341 @@
+
+ #appConteiner{
+	width:962px;
+	background :#E6E6E6;
+     
+ }
+
+ #sliderBox{
+	width:950px;
+	height:770px;
+ }
+
+ ul#sliderBoxNav{	
+	/* Center box atrributes*/
+	width:777px;
+	height:65px;
+	display:block;	
+	margin: 0 auto;
+	/***********************/	
+	list-style:none;
+	background: url('../../images/nav/nav.png') no-repeat ;
+	background-position:top;	
+	
+ }
+
+ ul#sliderBoxNav li{
+	display:inline-block;
+	cursor: pointer;	
+	margin-right:36px; 
+	width:150px;
+	height:60px;
+ }
+
+ .nextButtom{
+ 	width:250px;
+ 	height:166px; 	
+ 	cursor:pointer;
+ 	float:left;
+ 	margin-top:92px; 	
+ }
+ 
+ #nextIcon1{
+ 	background: url('../../images/nav/next1.png') no-repeat;
+ }
+  #nextIcon2{
+ 	background: url('../../images/nav/next2.png') no-repeat;
+ }
+ #nextIcon3{
+ 	background: url('../../images/nav/next3.png') no-repeat;
+ }
+  #nextIcon4{
+ 	background: url('../../images/nav/next4.png') no-repeat;
+ 	margin-top:18px;
+ }
+ 
+ .panelTitle{
+ 	font-size:16px;
+ 	font-weight:bold; 
+ 	text-align:center
+ }
+ 
+  .leftSide{
+ 	float:left; 	
+ 	height:540px;
+ 	margin:15px 0 0 15px;
+ 	/*border: 1px solid;*/ 
+ }
+ 
+   .rightSide{
+ 	float:right; 	
+ 	height:auto;
+ 	width:auto; 	
+ }
+
+  
+ /****************************************************************************/
+ /** Panel 1                                                                  */
+ /****************************************************************************/
+ 
+ #formReservation { 
+ 	float:left;
+ 	margin-top:18px;		
+ }
+ 
+ #formReservation #arriveDate,
+ #formReservation #departureDate{
+ 	width:170px;
+ 	text-align:center
+ }
+ 
+ #peopleBox { 
+ 	margin:10px auto;
+ 	width:345px; 	
+ }
+ 
+ #peopleBox > select, #peopleBox > label{
+ 	display:inline;
+ }
+ 
+ .adultBox,  .childBox{
+ 	width: 45px;
+ 	display:inline-block;
+ 	margin: 0 10px 10px 5px;
+ }
+ /*.childBox{ width:45px;}*/
+ .childAgeBox{
+ 	width: auto;
+ 	display:inline-block;
+ 	margin: 0 10px 10px 5px;
+ }
+ 
+ .childAge{
+ 	display:inline-block;
+ 	width:50px;
+ }
+ 
+ #calendarBox{
+ 	float:right;
+ 	width:auto; 	
+ 	height:auto;
+ 	margin-left:8px;
+ }
+ 
+ #calendarBox #modalCalendar{ text-align:center}
+ 
+ /****************************************************************************/
+ /** Panel 2                                                                  */
+ /****************************************************************************/
+ 
+ #roomConteiner{
+    max-height: 670px;
+    overflow: scroll;
+ 	width:670px;
+ 	overflow-x:hidden;
+ 	overflow-y:auto;
+ 	border: 1px solid #D1D2D3;
+ }
+ 
+ #reserveRange{ 
+ 	float:left;
+ 	width:340px;
+ 	margin:0 10px 15px 10px; 	
+ 	
+ }
+ #reserveTotal{ 
+ 	float:right;
+ 	width:300px;
+ 	margin:0 10px 15px 10px;
+ 	text-align:right;
+ 	font-size:1.8em;
+ }
+ 
+ div.roomTable{
+ 	width:591px; 	
+ }
+ 
+ table.tableRooms{ 	
+ 	padding: 0;
+	margin: 0;
+	border: 7px solid #D8D8D8;
+	width:590px;
+ }
+
+ .roomSelected{border: 7px solid #6E6E6E !important;} 
+ 
+ table.tableRooms caption {
+	padding: 0 0 5px 0;
+	width: 700px;	 
+	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+ table.tableRooms th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px;
+	background: #A9ABB5;
+}
+
+ table.tableRooms td.alt {
+	background: #FFFFFF;
+	color: #797268;
+	text-align:center;
+}
+ 
+ .roomTypeName{	
+ 	font-weight:bold;
+ 	font-size: 18px;
+ 	letter-spacing:1px; 	
+ } 
+ 
+ .roomItem{	margin:0 10px 25px 10px;}
+  
+ .numRooms{	text-align:center; }
+ 
+ .colSelect { text-align:center;}
+ 
+ .colRooms{ text-align:center;	height:38px;}
+ 
+ .prevPrice{text-decoration:line-through;}
+ 
+ .tRoomPrice{
+ 	font-size:18px;
+ 	font-weight:bold;
+ 	float:right;
+ 	letter-spacing:2px; 	
+ } 
+ 
+ .xtraPerson{
+ 	font-size:11px;
+ 	font-weight:bold;
+ 	color: #B40431;
+ 	float:right;
+ 	margin-right: 25px;
+ 	text-align: right;
+ } 
+ 
+ .notAvailable{
+ 	font-size:12px;
+ 	font-weight:bold;
+ 	float:right;
+ 	letter-spacing:2px;
+ 	color: red; 	
+ }
+ /****************************************************************************/
+ /** Panel 3                                                                 */
+ /****************************************************************************/
+ #customerInfo{ margin: 10px 0 0 12px;}
+ #cFormTitle {
+ 	font-weight:bold;
+ 	font-size:24px;
+ 	text-align:center;
+ 	margin-bottom:30px;
+ }
+ #formCustomer input, #formCustomer select { width: 185px;}
+ 
+ /****************************************************************************/
+ /** Panel 4                                                                  */
+ /****************************************************************************/
+ #reserveSummary{ 
+ 	displaY:inline-block;
+ 	width:660px;
+ 	height:350px;
+ }
+ 
+ #generalData{
+ 	float:left;
+ 	margin: 10px 15px 0 0; 
+ } 
+  
+ #generalPrice{ float: left;}
+ 
+ #formPaypal {
+ 	width:250px;
+ 	height:166px; 	
+ 	cursor:pointer;
+ 	float:right;
+ 	margin-top:55px; 
+ }
+ 
+ #formPaypal #btnPay{
+ 	width:195px;
+ 	height:135px;
+ 	margin-top:-25px;
+ }
+ #legendPaypal{
+ 	width:195px;
+ 	color:#880000;
+ 	font-size: small;
+ }
+ .childAgeBox{
+ 	margin-top:10px;
+ 	font-size: smaller;
+ 	color:#444444;
+ }
+ 
+ .titleArrive, .titleDeparture{
+ 	display:inline-block; 	
+ 	width:90px;
+ 	font-size:1.2em;
+ }
+ .txtArrive, .txtDeparture{ 	
+ 	width:100px;
+ 	font-size:1.2em;
+ }
+ 
+ #reservePrice,#reserveCode{
+ 	font-size:2em;
+ }  
+ #roomSummary{
+ 	width:675px;
+ 	height:300px;
+ 	clear:both;
+ 	margin-top:0;
+ 	overflow-x:hidden;
+ 	overflow-y:auto;
+ }
+ .roomForPay{
+ 	margin-bottom:10px;
+ }
+ 
+ .sumRoom  { float: left;}
+ .sumPrice { float: right;}
+ .sumDesc{ clear:both; width:590px;}
+ 
+ #newReserve{
+ 	clear:both;
+ 	margin-top:320px;
+ 	text-algin:center;
+ 	cursor:pointer;
+ 	font-size:18px; 	 	
+ }
+ 
+ #totalData{
+ 	display:inline-block;
+ 	margin:10px 0 0 15px;
+ }
+
+ /****************************************************************************/
+ /** Plugins Custom Styles                                                   */ 
+ /****************************************************************************/
+ 
+ /** CSS Anythingslider custom rules */
+ div.anythingSlider .anythingWindow{ border: none !important;}
+ div.anythingSlider.activeSlider .anythingWindow{ border-color: none !important;}
+ div.anythingSlider{ padding:0px !important;} 
+ 
+ /** Tama�o de jquery.datepicker*/
+ .ui-widget{ font-size:0.7em;}
+ .ui-datepicker{ width:16em !important}
+ 
+ /**Evita conflicto con blockUI*/
+ .date-picker{ z-index:0 !important;}
+
+ .SpinnerControl{ float:none; display:inline-block;} 

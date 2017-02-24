@@ -1,0 +1,59 @@
+#bg {
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  position: fixed; 
+  background-color: #000000;
+}
+#bg .back {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.booking{
+    min-width: 745px;
+    position: absolute; 
+    margin: 35% 0  0 30%;
+}
+.booking div{
+    height: 105px;
+    display: table-cell;
+}
+
+#book1{
+    width: 479px;
+    padding: 30px 40px;
+    font-size: 18px;
+    line-height: 23px;
+    background: url("../img/web/mainBar01.png") no-repeat;
+}
+#book2{
+    width: 110px;
+    cursor: pointer;
+    background: url("../img/web/mainBar02.png") no-repeat;
+}
+#book3{
+    width: 153px;
+    padding: 30px 15px;
+    background: url("../img/web/mainBar03.png") no-repeat;
+}
+#book3 .p1{
+    font-size: 16px;
+    text-align:center;
+    margin-bottom: 0px;
+}
+#book3 .p1 span{
+    font-size: 22px;
+    text-align:center;
+}
+#book3 .p2{
+    font-size: 12px;
+    text-align:center;
+}

@@ -1,0 +1,48 @@
+/**
+ * Reglas principales de maquetado
+ *
+ */
+  
+  BODY{	margin:0; }
+  
+ #appConteiner{ 	
+	text-align:left;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+ }
+ 
+ #appConteiner label{
+	/*font-size:1.3em;*/
+	text-align:left;
+	font-family: Arial,sans-serif;	
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+ }
+ 
+ #appConteiner input{
+ 	height:2em;
+ 	margin: 0;
+	padding: 2px 4px;
+	background: #FCFCFC;
+	border: #DADADA 1px solid;	
+	box-shadow: 0 0 4px #DADADA;	
+	/*border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;*/	
+ }
+ 
+ #appConteiner select{ 
+ 	margin: 0;
+	padding: 2px 4px;
+	box-shadow: 0 0 4px #A7D6E3;	
+	-moz-box-shadow: 0 0 4px #A7D6E3;
+	-webkit-box-shadow: 0 0 4px #A7D6E3;
+}
+
+#selRooms{
+    width: 100px;
+}
