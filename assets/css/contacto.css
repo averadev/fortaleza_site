@@ -1,8 +1,48 @@
-.map{
-    padding-bottom: 350px;
-    min-height: 100%;
+.bgContact{
+    height: 1100px;
     width: 100%;
-    background-color: blue;
+    background: url("../img/web/contact.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.rMap{
+    padding-top: 250px;
+}
+
+.map{
+    height: 300px;
+}
+
+#map1 {
+    height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    background-color: gray;
+}
+
+#map2 {
+    height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    background-color: gray;
+}
+.mapDesc{
+    line-height: 130%;
+    padding: 10px 0 0 10px;
+    text-align: left;
+    position: relative;
+    color: #FFFFFF;
+    height: 60px;
+    width: 210px;
+    background-color: #281e19;
+}
+
+.mapDesc span{
+    font-size:120%;
+    font-weight: bold;
 }
 
 .contacto{
